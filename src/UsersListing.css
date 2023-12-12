@@ -1,0 +1,29 @@
+/* UserListing.css */
+.user-listing-container {
+  margin: 16px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.user-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.user-item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.user-details {
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */

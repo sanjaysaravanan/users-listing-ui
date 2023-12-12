@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+.loader-container {
+  height: calc(100vh - 63px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  .loader-container {
+    height: calc(100vh - 96px);
+  }
+}
