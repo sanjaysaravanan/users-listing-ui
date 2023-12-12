@@ -15,6 +15,12 @@
   border: 1px solid #ddd;
   padding: 10px;
   border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.user-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .user-item img {
