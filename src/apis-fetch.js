@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-undef
-const backendUrl = import.meta.env.VITE_BE_URL ? import.meta.env.VITE_BE_URL : process.env.BE_URL;
+const backendUrl = import.meta.env.VITE_BE_URL ? import.meta.env.VITE_BE_URL : process.env.VITE_BE_URL;
 
 // Get all Users
 const getAllUsers = async (name = "") => {
